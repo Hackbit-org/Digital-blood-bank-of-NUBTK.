@@ -1,10 +1,8 @@
 import pyfiglet
-from termcolor import colored
 
 print("This tools made by: fb.com/0xSaikat and a tools of http://hackbit.dao :  ")
 hackbit_text = pyfiglet.figlet_format("NUBTK Blood Bank!", font="slant")
-colored_hackbit_text = colored(hackbit_text, 'red')
-print(colored_hackbit_text)
+print(hackbit_text)
 
 #B+ Blood group list :
 
